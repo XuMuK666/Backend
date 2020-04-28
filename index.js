@@ -1,11 +1,11 @@
 const express = require('express');
 const webpush = require('web-push');
 
-const publicVapidKey = process.env.PUBLIC_VAPID_KEY;
-const privateVapidKey = process.env.PRIVATE_VAPID_KEY;
+const publicVapidKey = BBi_K9Wczqo3NuDaTT6KEap-4zEWKcJISVt53Fpj4a5Ti-igbqTJV6Ki3xQb3NgpSizJbmtiPKIReC-lTTGexvY;
+const privateVapidKey = FzRMLykTjJR45HUf2agxvhRuBjt4kOywMafueBVNyG8;
 
 // Replace with your email
-webpush.setVapidDetails('mailto:val@karpov.io', publicVapidKey, privateVapidKey);
+webpush.setVapidDetails('allexxey222@gmail.com', publicVapidKey, privateVapidKey);
 
 const app = express();
 
