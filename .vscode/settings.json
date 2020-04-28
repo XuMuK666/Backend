@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/f810eeec-4ba6-4198-a19d-c93031ddf556/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Alextest4",
+    "appService.deploySubpath": ""
+}
